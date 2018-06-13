@@ -1,0 +1,1 @@
+{"rustc":18116088539158670656,"features":"[]","target":16542203936498650767,"profile":4362488863873820407,"path":1036222786711178230,"deps":[["ansi-escapes v0.1.0",14010614642199014589],["rand v0.4.2",1700981954048801616]],"local":[{"MtimeBased":[[1528680840,292036100],".fingerprint\\quicksort-1e3dbdc3c54d4e00\\dep-bin-quicksort-1e3dbdc3c54d4e00"]}],"rustflags":[]}

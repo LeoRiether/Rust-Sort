@@ -1,0 +1,9 @@
+[package]
+name = "selectionsort"
+version = "0.1.0"
+authors = ["Leonardo Riether <leonardoalves8217@gmail.com>"]
+
+[dependencies]
+ansi-escapes = "0.1.0"
+rand = "0.4"
+time = "*"

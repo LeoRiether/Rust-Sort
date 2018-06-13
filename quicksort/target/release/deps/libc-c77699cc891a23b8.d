@@ -1,0 +1,13 @@
+C:\Users\Leonardo\Desktop\rustsort\quicksort\target\release\deps\liblibc-c77699cc891a23b8.rlib: C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\lib.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\macros.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\dox.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\windows.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\redox\mod.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\redox\net.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\cloudabi\mod.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\fuchsia\mod.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\unix\mod.rs
+
+C:\Users\Leonardo\Desktop\rustsort\quicksort\target\release\deps\libc-c77699cc891a23b8.d: C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\lib.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\macros.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\dox.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\windows.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\redox\mod.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\redox\net.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\cloudabi\mod.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\fuchsia\mod.rs C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\unix\mod.rs
+
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\lib.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\macros.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\dox.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\windows.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\redox\mod.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\redox\net.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\cloudabi\mod.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\fuchsia\mod.rs:
+C:\Users\Leonardo\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.42\src\unix\mod.rs:

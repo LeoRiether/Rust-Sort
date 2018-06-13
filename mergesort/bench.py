@@ -22,8 +22,8 @@ if __name__ == '__main__':
   tests = []
   results = []
   t = 0
-  n = 20
-  while test < 5000:
+  n = 8
+  while t < 10:
     r = []
     for i in range(n):
       r.append(benchmark(test))
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     print(f'{test} elements: {t}s')    
     tests.append(test)
     results.append(t)
-    test += 100
+    test *= 10
 
   trace = go.Scatter(x=tests, y=results)
   py.plot([ trace ])

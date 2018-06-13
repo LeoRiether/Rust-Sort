@@ -1,19 +1,28 @@
 extern crate ansi_escapes;
 
+static IS_DEBUG: bool = false;
+macro_rules! debug {
+  ($x:expr) => ( if IS_DEBUG { $x; } );
+}
+macro_rules! no_debug {
+  ($x:expr) => ( if !IS_DEBUG { $x; } );
+}
+
 use std::io::{stdin,stdout,Write};
 use std::{thread,time};
 
 fn print_data(data: &Vec<i32>) {
-  // return;
-  print!("[ ");
-  for e in data.iter() {
-    print!("{} ", e);
-  }
-  println!("]");
+  debug!(return);
+  println!("{:?}", data);
+  // print!("[ ");
+  // for e in data.iter() {
+  //   print!("{} ", e);
+  // }
+  // println!("]");
 }
 
 fn pretty_print_data(data: &Vec<i32>) {
-  // return;
+  debug!(return);
   print!("{}", ansi_escapes::CursorRestorePosition);
   for e in data.iter() {
     print!("{}", ansi_escapes::EraseLine);
@@ -66,9 +75,7 @@ fn merge(data: &mut Vec<i32>, aux: &mut Vec<i32>, size: usize) {
     right_cursor = lower_bound + size;
   }
 
-  for (i, e) in aux.iter().enumerate() {
-    data[i] = *e;
-  }
+  std::mem::swap(data, aux);
 }
 
 fn main() {
@@ -102,7 +109,7 @@ fn main() {
   // Do the actual merge sorting
   let mut size: usize = 1;
   while size < data.len() {
-    thread::sleep(sleep_time);
+    no_debug!(thread::sleep(sleep_time));
     merge(&mut data, &mut aux, size);
     pretty_print_data(&data);
     size *= 2;
